@@ -668,19 +668,58 @@ footer p{
         display: flex;
         flex-direction: column;
     }
-    
-    .left{
-        width: 100% !important;
-        position: relative !important;
-        top:0;
-        height: auto;
-        left: 0;
-        
+     .left{
+        width:100%;
+        height:auto;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
     }
+
     .left img{
-       max-width: 100%;
-        height: auto;
+        width:150px;
+        height:150px;
+        object-fit:contain;
     }
+
+    .intro{
+        text-align:center;
+        width:100%;
+    }
+
+    .intro h1{
+        font-size:26px;
+        margin-top:10px;
+    }
+
+    .intro h3{
+        font-size:18px;
+    }
+
+    .intro p{
+        font-size:15px;
+        line-height:1.5;
+    }
+
+    .icons{
+        margin:15px 0;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        width:100%;
+        align-items:center;
+    }
+
+    .buttons button{
+        width:200px;
+    }
+    
+   
     .right{
         width: 100% !important;
         padding: 20px;
@@ -696,18 +735,11 @@ footer p{
         font-size: 15px;
         line-height: 1.7;
     }
-    .buttons{
-        flex-direction: column;
-        align-items: center;
-        width:100%;
-    }
+   
     .buttons a{
         width:100%}
     
-    .buttons button{
-        width: 100%;
-        max-width: 250px;
-    }
+  
     .buttons2{
         flex-direction: column;
         align-items: center;
@@ -767,22 +799,8 @@ footer p{
         display:blok;
         flex-direction:column;}
     
-    .intro h1{
-        font-size: 30px;
-    }
-    .intro h3{
-        font-size: 20px;
-    }
-    .intro p{
-        font-size: 15px;
-        text-align: center;
-    }
-    .icons{
-        gap:20px;
-    }
-    .icons i{
-        font-size: 24px;
-    }
+   
+  
     .highlights{
         justify-content: center;
     }
