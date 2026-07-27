@@ -665,22 +665,25 @@ footer p{
 }
 @media(max-width:768px){
     .main{
+        display: flex;
         flex-direction: column;
     }
     
     .left{
-        width: 100%;
-        position: relative;
+        width: 100% !important;
+        position: relative !important;
         top:0;
         height: auto;
+        left: 0;
     }
     .left img{
         width: 150px;
         height: 150px;
     }
     .right{
-        width: 100%;
+        width: 100% !important;
         padding: 20px;
+        margin-left:0 !important;
     }
     .hero h1{
         font-size: 32px;
@@ -741,6 +744,12 @@ footer p{
     .right section{
         margin-bottom: 40px;
     }
+    .right-left,
+    .right-right{ 
+        width:100%;
+                }
+    .container{
+        display:blok;}
     .intro h1{
         font-size: 30px;
     }
