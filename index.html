@@ -20,7 +20,7 @@
        <p>Hi, I'm Krutadnya Mahajan, an AI
         Engineering student passionate about 
         Frontend Web Development. I enjoy
-        creating modern, and
+        creating modern, responsive, and
         user-friendly websites while
         continuosly improving my coding skills. 
       </p>
@@ -39,7 +39,7 @@
       
 
       <div class="buttons">
-      <a href="Black and White Clean Professional A4 Resume (2).pdf" target="_blank">
+      <a href="Black and White Clean Professional A4 Resume (1).pdf" target="_blank">
         <button>Resume</button>
         </a>
      <a href="#contact">
@@ -57,7 +57,7 @@
             <h1>Krutadnya Mahajan</h1>
             <h3>AI Engineering Student | Frontend Developer</h3>
             <p>I am an AI Engineering student with a passion
-                for creating modern websites. I enjoy learning 
+                for creating modern and responsive websites. I enjoy learning 
             new technologies and turning ideas into beautiful web experiences.</p>
             <div class="buttons2">
               <a href="#projects">
@@ -73,7 +73,8 @@
                 <p>I started my programming Journey 
                 with Python and gradually developed
                 an interest in Web Development.
-                I enjoy creating modern websites while continuously
+                I enjoy creating responsive and 
+                modern websites while continuously
                 improving my coding skills. My goal is to become
                 a skilled Frontend Developer and Contribute to 
                 innovative projects. </p>
@@ -89,6 +90,7 @@
     <i class="fa-solid fa-brain"></i>
     <h4>AI Engineering</h4>
   </div>
+
 
   <div class="highlight-card">
     <i class="fa-solid fa-book-open"></i>
@@ -107,7 +109,7 @@
                 </div>
                 <div class="skill2">
                     <h3>CSS</h3>
-                    <p>Creating modern, and
+                    <p>Creating modern, and 
                         attractive UI designs.
                     </p>
                 </div>
@@ -137,7 +139,7 @@
             <div class="project-card">
                 
                 <h3>E-commerce UI Practice Project</h3>
-                <p>Creating a e-commerce websites
+                <p>Creating a responsive e-commerce websites
                     using HTML and CSS. Designed the layout,
                     navbar, and different sections to practice
                     frontend development.
@@ -149,11 +151,11 @@
                 <a href="https://stately-tartufo-a9f7e9.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
                 
                 <h3>My Portfolio Website</h3>
-                <p>A modern portfolio website built using HTML and CSS.</p>
+                <p>A modern and responsive portfolio website built using HTML and CSS.</p>
                 <h4>Technologies Used</h4>
                 <p>HTML, CSS</p>
                 <h4>Project Link</h4>
-                <a href="https://mahajankrutadnya-tech.github.io/Portfolio-Website/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+                <a href="" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
 
                 <h3>Python Calculator</h3>
                 <p>A simple calculator developed using python.
@@ -175,6 +177,27 @@
                 <p>Python</p>
                 <h4>Project Link</h4>
                 <a href="https://github.com/mahajankrutadnya-tech/Python-Games/blob/main/Games.py"><i class="fa-brands fa-github"></i> GitHub</a>
+
+                <h3>Currency Converter</h3>
+                <p>A simple responsive currency converter website using HTML, CSS, and JavaScript.</p>
+                <h4>Technologies Used</h4>
+                <p>HTML, CSS, and JavaScript</p>
+                <h4>Project Link</h4>
+                <a href="https://funny-empanada-acdb9f.netlify.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+
+                <h3>Rock Paper Scissors</h3>
+                <p>A interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript.</p>
+                <h4>Technologies Used</h4>
+                <p>HTML, CSS, and JavaScript</p>
+                <h4>Project Link</h4>
+                <a href="https://comforting-capybara-46a140.netlify.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
+
+                <h3>Music Player</h3>
+                <p>A responsive music player interface created using HTML, CSS, and JavaScript.</p>
+                <h4>Technologies Used</h4>
+                <p>HTML, CSS, and JavaScript</p>
+                <h4>Project Link</h4>
+                <a href="https://idyllic-dragon-6cd9ca.netlify.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Live Demo</a>
 
             </div>
         </section>
@@ -269,23 +292,26 @@
                 <h3>Contact With Me</h3>
 
             </div>
+            
 
             <div class="contact-form">
                 <h3>Send a Message</h3>
-                <form>
-                    <label for="name">Name</label><br>
-                    <input type="text" id="name" placeholder="Enter your name">
-                    <br><br>
+                <form id="contact-form">
 
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" placeholder="Enter your email">
-                    <br><br>
+                  <label for="name">Name</label><br>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                  <br><br>
 
-                    <label for="message">Message</label><br>
-                    <textarea id="message" rows="5" placeholder="Write your message"></textarea>
-                    <br><br>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                  <br><br>
 
-                    <button type="submit">Send Message</button>
+                  <label for="message">Message</label><br>
+                  <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+                  <br><br>
+
+                 <button type="submit">Send Message</button>
+
                 </form>
             </div>
         </section>
@@ -300,6 +326,9 @@
 </div>
 <a href="#hero" class="top-btn"><i class="fa-solid fa-arrow-up"></i></a>
 
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>

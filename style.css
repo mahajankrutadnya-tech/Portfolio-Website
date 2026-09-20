@@ -27,7 +27,7 @@ body{
     backdrop-filter:blur(15px);
     border-right: 2px solid #334155;
     padding: 40px 25px;
-    position: sticky;
+    position: relative;
     top: 0;
    text-align: center;
    overflow: hidden;
@@ -665,3 +665,480 @@ footer p{
 }
 
 
+@media (max-width: 1000px) {
+
+    .main {
+        height: auto;
+        min-height: 100vh;
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        padding: 35px 25px;
+        position: relative;
+        overflow: visible;
+        border-right: none;
+        border-bottom: 2px solid #334155;
+    }
+
+    .left img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        max-width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+        padding: 35px;
+        overflow: visible;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero h3 {
+        font-size: 24px;
+    }
+
+    .skill-container div {
+        width: 45%;
+    }
+
+    .highlight-card {
+        width: 180px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* LEFT PROFILE */
+
+    .left {
+        width: 100%;
+        height: auto;
+        padding: 30px 18px;
+        position: relative;
+    }
+
+    .left img {
+        width: 135px;
+        height: 135px;
+        margin-bottom: 20px;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .intro h3 {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .intro p {
+        font-size: 14px;
+        line-height: 1.7;
+        text-align: center;
+    }
+
+    .icons {
+        gap: 22px;
+        margin: 25px 0;
+    }
+
+    .icons i {
+        font-size: 25px;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .buttons button {
+        padding: 12px 23px;
+        font-size: 14px;
+    }
+
+
+    /* RIGHT PANEL */
+
+    .right {
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+        overflow: visible;
+    }
+
+    .right section {
+        margin-bottom: 35px;
+    }
+
+
+    /* COMMON HEADINGS */
+
+    h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 25px 18px;
+        border-radius: 16px;
+    }
+
+    .hero h4 {
+        font-size: 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .hero h3 {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .hero p {
+        font-size: 14px;
+        line-height: 1.7;
+        width: 100%;
+    }
+
+    .buttons2 {
+        margin-top: 20px;
+    }
+
+    .buttons2 button {
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+
+    /* ABOUT */
+
+    .About {
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .about-content {
+        padding: 10px;
+    }
+
+    .about-content h3 {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .highlights {
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .highlight-card {
+        width: 100%;
+        min-height: 120px;
+        padding: 20px;
+    }
+
+    .highlight-card i {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+
+    .highlight-card h4 {
+        font-size: 16px;
+    }
+
+
+    /* SKILLS */
+
+    .skills {
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .skill-container {
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .skill-container div,
+    .skill1,
+    .skill2,
+    .skill3,
+    .skill4,
+    .skill5,
+    .skill6 {
+        width: 100%;
+        padding: 18px;
+        margin-bottom: 0;
+    }
+
+    .skill-container h3 {
+        font-size: 19px;
+    }
+
+    .skill-container p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* PROJECTS */
+
+    .Projects {
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .project-card {
+        padding: 15px 5px;
+        margin-top: 15px;
+    }
+
+    .project-card h3 {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-top: 28px;
+    }
+
+    .project-card p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .project-card h4 {
+        font-size: 16px;
+    }
+
+    .project-card a {
+        font-size: 14px;
+        word-break: break-word;
+    }
+
+
+    /* EDUCATION */
+
+    .Education {
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .edu-card {
+        padding: 15px 5px;
+    }
+
+    .edu-card h3 {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    .edu-card p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* CERTIFICATES */
+
+    .Certificates {
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .certi-card {
+        padding: 18px;
+    }
+
+    .certi-card h3 {
+        font-size: 19px;
+        line-height: 1.4;
+    }
+
+    .certi-card h5 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .certi-card p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* CONTACT */
+
+    .Contact {
+        padding: 22px 16px;
+        border-radius: 16px;
+    }
+
+    .contact-details {
+        padding: 18px;
+    }
+
+    .contact-details h3 {
+        font-size: 19px;
+    }
+
+    .contact-details p {
+        font-size: 14px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-form {
+        padding: 18px;
+        margin-top: 20px;
+    }
+
+    .contact-form h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 18px 10px;
+        margin-top: 30px;
+    }
+
+    footer p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+
+    /* TOP BUTTON */
+
+    .top-btn {
+        width: 44px;
+        height: 44px;
+        right: 15px;
+        bottom: 15px;
+        font-size: 19px;
+    }
+
+
+    /* REMOVE LARGE HOVER MOVEMENT ON MOBILE */
+
+    .hero:hover,
+    .About:hover,
+    .skills:hover,
+    .Projects:hover,
+    .Education:hover,
+    .Certificates:hover,
+    .Contact:hover,
+    .contact-details:hover,
+    .contact-form:hover,
+    .project-card:hover,
+    .edu-card:hover,
+    .certi-card:hover,
+    .highlight-card:hover,
+    .skill-container div:hover {
+        transform: none;
+    }
+
+}
+
+
+/* Very small phones */
+
+@media (max-width: 380px) {
+
+    .left {
+        padding: 25px 14px;
+    }
+
+    .right {
+        padding: 15px 10px;
+    }
+
+    .left img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .intro h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero h3 {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+}
